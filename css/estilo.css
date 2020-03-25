@@ -1,0 +1,145 @@
+@charset "itf-8";
+
+#corpo{
+    padding: 5px;
+    background-color: white;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+#cabecalho{
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-position: center left;
+    box-sizing: border-box;
+    background-image: url("../imagens/topo.jpg");
+    margin-top: 0px;
+}
+
+#cabecalho img{
+    width: 100%;
+    position: absolute;
+    margin-top: 0px;
+    box-sizing: border-box;   
+}
+
+#cabecalho #menu #logo img{
+  width: 10%;
+  height: 5%;
+  margin-left: 20%;
+  margin-top: 10px;
+  float: left;
+}
+
+#menu ul{
+    width: 100%;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+#menu li:hover a{
+    opacity: .8;
+    color: white;
+}
+
+#menu li, a{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgba(102, 196, 172, 0.2); 
+    text-decoration: none;
+    font-size: 13px;     
+}
+
+#artigo_1 h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#artigo_1 p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+
+#modelos {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+#modelos #model_1, #model_2, #model_3{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+#modelos h3{
+    text-transform: uppercase;
+    line-height: 10px;
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #464444;    
+}
+#model_1, #model_2, #model_3 p{
+    text-transform: none;
+    font-size: 12px;
+    color: #888888;
+}
+
+#artigo_2{
+    background-image: url("../imagens/bg_detalhe.png");
+    width: 100%; 
+    background-size:cover; 
+}
+
+#artigo_2 h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 70px;
+    font-weight: normal; 
+}
+
+#artigo_2 p{
+    margin-right: 50%;
+    margin-left: 70px;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+
+#footer_artigo2{
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    color: #013849;
+    padding: 30px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#map iframe{
+    margin-bottom: 50px;
+}
+
+#rodape{
+    background-color: rgb(0, 31, 41);
+    padding: 20px;
+    text-align: center;
+    color: rgb(122, 167, 153);
+    letter-spacing: 5px;
+}
